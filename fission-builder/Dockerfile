@@ -1,6 +1,6 @@
 # Define the base builder image and Python base image versions
 ARG BUILDER_IMAGE=fission/builder
-ARG PY_BASE_IMG=3.12.4-alpine
+ARG PY_BASE_IMG=3.12.5-alpine
 
 # Stage 1: Use the Fission builder base image
 FROM ${BUILDER_IMAGE} AS fission-builder

@@ -1,5 +1,5 @@
 # Use the desired Python version, e.g., Python 3.12
-ARG PY_BASE_IMG=3.12.4-alpine
+ARG PY_BASE_IMG=3.12.5-alpine
 
 FROM python:${PY_BASE_IMG}
 
